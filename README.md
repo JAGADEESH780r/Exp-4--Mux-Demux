@@ -34,7 +34,7 @@ module demux1to2 (
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
 endmodule
-```
+
 ## **Testbench Program
 
 
@@ -147,7 +147,8 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-![Uploading Screenshot 2026-10-23 102712.png…]()
+<img width="1920" height="1080" alt="Screenshot 2026-10-23 102712" src="https://github.com/user-attachments/assets/ca29f332-f42f-400f-b144-f7868683a704" />
+
 
 
 ## Viva-Voce Questions
